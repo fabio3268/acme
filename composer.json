@@ -1,0 +1,30 @@
+{
+    "name": "fabio3268/acme-financial",
+    "description": "Desenvolvimento de uma aplicação MVC - PWII",
+    "minimum-stability": "stable",
+    "authors": [
+      {
+        "name": "Fábio Santos",
+        "email": "fabiosantos@ifsul.edu.br",
+        "homepage": "https://www.ifsul.edu.br",
+        "role": "Developer"
+      }
+    ],
+    "config": {
+      "vendor-dir": "vendor"
+    },
+    "autoload": {
+      "psr-4": {
+        "Source\\": "source/"
+      },
+      "files": [
+        "source/Boot/Config.php",
+        "source/Boot/Helpers.php"
+      ]
+    },
+    "require": {
+      "php": "8.1.5",
+      "ext-pdo": "8.*",
+      "coffeecode2/router2": "1.0.8"
+    }
+  }
