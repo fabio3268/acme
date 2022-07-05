@@ -12,8 +12,12 @@ class Web
 
     public function about(): void
     {
-        //echo "Sobre";
         include __DIR__ . "/../../themes/web/about.php";
+    }
+
+    public function sponsors(): void
+    {
+        include __DIR__ . "/../../themes/web/sponsors.php";
     }
 
     public function error() : void

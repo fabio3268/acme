@@ -10,19 +10,19 @@
   
   <!-- PLUGINS CSS STYLE -->
   <!-- Bootstrap -->
-  <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="themes/web/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Font Awesome -->
-  <link href="plugins/font-awsome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="themes/web/plugins/font-awsome/css/font-awesome.min.css" rel="stylesheet">
   <!-- Magnific Popup -->
-  <link href="plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="themes/web/plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
   <!-- Slick Carousel -->
-  <link href="plugins/slick/slick.css" rel="stylesheet">
-  <link href="plugins/slick/slick-theme.css" rel="stylesheet">
+  <link href="themes/web/plugins/slick/slick.css" rel="stylesheet">
+  <link href="themes/web/plugins/slick/slick-theme.css" rel="stylesheet">
   <!-- CUSTOM CSS -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="themes/web/css/style.css" rel="stylesheet">
 
   <!-- FAVICON -->
-  <link href="images/favicon.png" rel="shortcut icon">
+  <link href="themes/web/images/favicon.png" rel="shortcut icon">
 
 </head>
 
