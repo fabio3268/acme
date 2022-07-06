@@ -20,8 +20,9 @@ class Web
         include __DIR__ . "/../../themes/web/sponsors.php";
     }
 
-    public function error() : void
+    public function error(array $data) : void
     {
         include __DIR__ . "/../../themes/web/404.php";
+        //var_dump($data);
     }
 }

@@ -56,7 +56,7 @@
           </a>
           <!-- Dropdown list -->
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="index.html">Homepage</a>
+            <a class="dropdown-item" href="/">Homepage</a>
             <a class="dropdown-item" href="homepage-two.html">Homepage 2</a>
           </div>
         </li>
@@ -69,7 +69,7 @@
           <a class="nav-link" href="#" data-toggle="dropdown">Pages<span>/</span></a>
             <!-- Dropdown list -->
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="about-us.html">About Us</a>
+              <a class="dropdown-item" href="/acme/sobre">About Us</a>
               <a class="dropdown-item" href="single-speaker.html">Single Speaker</a>
               <a class="dropdown-item" href="gallery.html">Gallery</a>
               <a class="dropdown-item" href="gallery-two.html">Gallery-02</a>
@@ -83,7 +83,7 @@
           <a class="nav-link" href="schedule.html">Schedule<span>/</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="sponsors.html">Sponsors<span>/</span></a>
+          <a class="nav-link" href="/acme/patrocinadores">Sponsors<span>/</span></a>
         </li>
         <li class="nav-item dropdown dropdown-slide">
           <a class="nav-link" href="#"  data-toggle="dropdown">News
