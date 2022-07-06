@@ -17,7 +17,7 @@ $route->get("/patrocinadores","Web:sponsors");
  * Erros Routes
  */
 
-$route->namespace("Source\App")->group("/ops");
+$route->group("error")->namespace("Source\App");
 $route->get("/{errcode}", "Web:error");
 
 $route->dispatch();
@@ -26,8 +26,8 @@ $route->dispatch();
  * Error Redirect
  */
 
-if($route->error()){
-    $route->redirect("/ops/{$route->error()}");
+if ($route->error()) {
+    $route->redirect("/error/{$route->error()}");
 }
 
 ob_end_flush();
